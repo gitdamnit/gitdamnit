@@ -78,7 +78,8 @@ I'm working on an agnostic AI-powered HR agent. You're thinking "Why? Everyone h
 
 
 
-<img width="622" height="621" alt="image" src="https://github.com/user-attachments/assets/175e3151-dd64-446f-9f61-bc046a9851ab" />
+<img width="643" height="641" alt="image" src="https://github.com/user-attachments/assets/e033bb14-4d7d-4e3a-ae93-ab0ede82f6ca" />
+
 
 
 
