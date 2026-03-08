@@ -70,9 +70,20 @@ This is my first app release. Ever. I've owned this domain since I was 23 (I thi
 
 
 
+Oh snap I almost forgot- 
+
+# HR CARES
+
+I'm working on an agnostic AI-powered HR agent. You're thinking "Why? Everyone hates HR. Why would you do that?" and the answer is the same answer to "Evan why would you get a graduate degree in HR! Everyone hates HR?!" So, we are at an impasse. I will share one of my initial art ideas, but most people (regos) don't get how hilarous using that amazing literary device called IRONY can be so. Yeah. 
 
 
-So that's all I got. Nothing else in the pipeline at this moment. I will post the link once the children's book is complete and heading to market. 
+
+<img width="622" height="621" alt="image" src="https://github.com/user-attachments/assets/175e3151-dd64-446f-9f61-bc046a9851ab" />
+
+
+
+
+That's all I got. Nice to meet a new markdown editor. Nothing else in the pipeline at this moment. I will post the link once the children's book is complete and heading to market. 
 
 
 
