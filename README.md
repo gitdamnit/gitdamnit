@@ -21,7 +21,7 @@ Here are some ideas to get you started:
 
 Critical thinker, builder, researcher, unapologetic tinkerer.
 
-I design and build practical tools for real workflows — from HR decision-support and trainer software to ADHD-friendly productivity systems and smaller experimental apps. I’m especially interested in workflow design, AI-assisted systems, automation, and tools that reduce friction for the people actually using them.
+I design and build practical tools for real workflows — from HR decision-support and trainer software to ADHD-friendly productivity systems and smaller experimental apps. I’m especially interested in workflow design, AI-assisted systems, automation, and tools that make life a little bit easier. Also, I grow organic Meyer lemons. 
 
 ## Current Projects
 
