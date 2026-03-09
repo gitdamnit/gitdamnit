@@ -23,10 +23,10 @@ Critical thinker, builder, researcher, unapologetic tinkerer.
 
 I design and build practical tools for real workflows — from HR decision-support and trainer software to ADHD-friendly productivity systems and smaller experimental apps. I’m especially interested in workflow design, AI-assisted systems, automation, and tools that reduce friction for the people actually using them.
 
-## Featured Projects
+## Current Projects
 
 ### FRANKIE
-Open-source trainer workflow tool for workout generation and client tracking.
+Application for personal trainers to optimize workflow and track clients.
 
 ### CHAOSDASH
 Productivity dashboard built for chaotic brains, focused on organization, focus, and workflow support.
