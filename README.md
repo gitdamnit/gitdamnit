@@ -40,4 +40,4 @@ React • TypeScript • Node.js • PostgreSQL • Tailwind • Drizzle ORM •
 
 ## Interests
 
-Automation, data, workflow systems, applied AI, writing, and building useful weird shit.
+Automation, data, workflow systems, applied AI, writing, botany, and building (for the most part) useful weird shit.
