@@ -28,7 +28,7 @@ I design and build practical tools for real workflows — from HR decision-suppo
 ### FRANKIE
 Application for personal trainers to optimize workflow and track clients.
 
-### CHAOSDASH
+### ADHDPenguin
 Productivity dashboard built for chaotic brains, focused on organization, focus, and workflow support.
 
 ### HR-CARE
