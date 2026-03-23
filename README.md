@@ -36,7 +36,7 @@ Policy-aware HR assistant for workplace guidance, documentation, and compliant d
 
 ## Stack
 
-React • TypeScript • Node.js • PostgreSQL • Tailwind • Drizzle ORM • AI / LLM workflows
+React • TypeScript • Python • Node.js • PostgreSQL • Tailwind • Drizzle ORM • AI / LLM workflows
 
 ## Interests
 
