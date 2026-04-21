@@ -42,8 +42,8 @@ Productivity dashboard built for chaotic brains, focused on organization, focus,
 
 ## Stack
 
-React • TypeScript • Python • Node.js • PostgreSQL • Tailwind • Drizzle ORM • AI / LLM workflows
+Next.js • React • TypeScript • Python • Markdown • YAML • JSON • Node.js • PostgreSQL • Docker • Cloudflare • Tailwind • Drizzle ORM • Llama.cpp • AI / LLM workflows
 
 ## Interests
 
-Automation, data, workflow systems, applied AI, writing, botany, and building (for the most part) useful weird shit.
+Automation, data, workflow systems, applied AI, orchestration, writing, botany, and building (for the most part) useful weird shit.
