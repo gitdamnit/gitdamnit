@@ -32,14 +32,16 @@ Application for personal trainers to optimize workflow and track clients.
 
 
 
+
+
 ### ADHDPenguin 🐧
 Productivity dashboard built for chaotic brains, focused on organization, focus, and workflow support.
 
-### ⭐ OPENCODE CHECKPOINT ORCHESTRATOR PLUGIN PASS ✅
-Failure-resilient checkpointing for OpenCode — persistent task state, atomic writes, and resumable AI workflows.\
+### ⭐ CHECKPOINT ORCHESTRATOR PLUGIN ✅
 <a href="https://www.npmjs.com/package/@gitdamnit/checkpoint-orchestrator">
-  <img src="npm.png" alt="Checkpoint Orchestrator" width="35">
-</a>
+  <img src="npm.png" alt="Checkpoint Orchestrator" width="30"></a>
+Failure-resilient checkpointing for OpenCode — persistent task state, atomic writes, and resumable AI workflows.
+
 
 
 ## Stack
