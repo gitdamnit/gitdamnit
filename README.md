@@ -12,6 +12,7 @@ Here are some ideas to get you started:
 - 💬 Ask me about ...
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
+
 - ⚡ Fun fact: ...
 -->
 
@@ -25,14 +26,19 @@ I design and build practical tools for real workflows — from HR decision-suppo
 
 ## Current Projects
 
+
+
+### OPENCODE CHECKPOINT ORCHESTRATOR PLUGIN
+
+Failure-resilient checkpointing for OpenCode — persistent task state, atomic writes, and resumable AI workflows. https://www.npmjs.com/package/@gitdamnit/checkpoint-orchestrator
+
 ### FRANKIE
 Application for personal trainers to optimize workflow and track clients.
 
 ### ADHDPenguin
 Productivity dashboard built for chaotic brains, focused on organization, focus, and workflow support.
 
-### HR-CARE
-Policy-aware HR assistant for workplace guidance, documentation, and compliant decision-making.
+
 
 ## Stack
 
