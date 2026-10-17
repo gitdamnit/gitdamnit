@@ -76,9 +76,9 @@ Scans for credentials and sensitive information at AI coding-agent boundaries, i
 
 ---
 
-## 🧪 OpenCode Plugin Test Lab
+## 🧪 [OpenCode Plugin Test Lab](https://github.com/gitdamnit/opencode-plugin-lab)
 
-**v1.0.0 · GitHub publication in preparation**
+**v1.0.0 · Public GitHub repository**
 
 *Test the plugin before the plugin tests your patience.*
 
@@ -88,7 +88,7 @@ Its default test suite runs without any of my plugins; an optional regression pr
 
 **Highlights:** Docker isolation · Generic manifests · Multi-plugin tests · Failure isolation · Repeatable reports
 
-**Recent validation:** 76 passed, 0 failed, 5 capability skips against OpenCode 2.0.32. GitHub publication is pending.
+**Recent validation:** 76 passed, 0 failed, 5 capability skips against OpenCode 2.0.32. [View the repository](https://github.com/gitdamnit/opencode-plugin-lab).
 
 ---
 
