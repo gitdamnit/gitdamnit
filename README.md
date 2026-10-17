@@ -24,6 +24,20 @@ My background is in human resources, technical recruiting, and business process 
 
 ---
 
+## 😈 [I Hope It Offends You](https://github.com/gitdamnit/ihopeitoffendsyou)
+
+**Experimental comedy web app · Archived project showcase**
+
+*An insult generator with absolutely no interest in being polite.*
+
+A deliberately rude, real-time roasting app powered by a handwritten insult engine, not AI. Built with React, Express, and PostgreSQL because apparently even insults deserve a proper backend.
+
+The original website is no longer online, but the [GitHub repository](https://github.com/gitdamnit/ihopeitoffendsyou) still has screenshots of the glorious nonsense.
+
+**Highlights:** Handwritten roast engine · React · Express · PostgreSQL · Screenshots
+
+---
+
 ## 🔌 OpenCode Plugins
 
 Three independent plugins for **OpenCode V2**. Each works on its own, with its own installation, configuration, and release lifecycle. They're designed to coexist, not depend on one another.
