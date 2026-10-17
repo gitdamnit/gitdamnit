@@ -1,53 +1,226 @@
+# Hey, I'm Evan. 👋
 
+### Developer tools. AI workflows. Useful weird shit.
 
-<!--
-**gitdamnit/gitdamnit** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Independent developer · HR technologist · Critical thinker · Unapologetic tinkerer**
 
-Here are some ideas to get you started:
+I build software because something needs fixing, something could be easier, or something doesn't exist that absolutely should.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
+My background is in human resources, technical recruiting, and business process improvement. Somewhere along the way, I started turning problems I encountered into software projects. Now I build developer tools, AI-assisted applications, workflow systems, and whatever else seems worth figuring out.
 
-- ⚡ Fun fact: ...
--->
+**Don't ask why. Ask why not.**
 
+---
 
+## 📋 ProDoc Guard
 
-# Hi there 👋 I'm Evan. 
+**Portable Agent Skill + CLI · v0.1.0 · [GitHub release](https://github.com/gitdamnit/prodoc-guard)**
 
-Critical thinker, builder, researcher, unapologetic tinkerer.
+*Project documentation that doesn't drift into creative fiction.*
 
-I design and build practical tools for real workflows — from HR decision-support and trainer software to ADHD-friendly productivity systems and smaller experimental apps. I’m especially interested in workflow design, AI-assisted systems, automation, and tools that make life a little bit easier. Also, I grow organic Meyer lemons. 
+[ProDoc Guard](https://github.com/gitdamnit/prodoc-guard) helps keep product requirements, architectural decisions, and development status aligned with what's actually happening. It's vendor-neutral, designed to travel between AI coding agents and development environments rather than locking your project knowledge into one tool.
 
+**Highlights:** Requirements and decisions · Project status · Documentation validation · Portable Agent Skill · CLI
 
-🔭 I’m currently working on ...
+---
 
-### 🚧 FRANKIE ⚠️ - Waiting for feedback
-Application for personal trainers to optimize workflow and track clients.
+## 🔌 OpenCode Plugins
 
+Three independent plugins for **OpenCode V2**. Each works on its own, with its own installation, configuration, and release lifecycle. They're designed to coexist, not depend on one another.
 
+### 🧠 [Checkpoint Orchestrator](https://github.com/gitdamnit/opencode-checkpoint-plugin)
 
+**v2.0.0 · GitHub released**
 
+*Pick up where you left off without losing your damn place.*
 
-### ADHDPenguin 🐧
-Productivity dashboard built for chaotic brains, focused on organization, focus, and workflow support.
+Failure-resilient task-state checkpointing for AI-assisted development. It stores progress, blockers, and recovery snapshots in session-isolated SQLite, so multiple development sessions can share a repository without overwriting each other's checkpoints.
 
-### ⭐ CHECKPOINT ORCHESTRATOR PLUGIN ✅
-<a href="https://www.npmjs.com/package/@gitdamnit/checkpoint-orchestrator">
-  <img src="npm.png" alt="Checkpoint Orchestrator" width="30"></a>
-Failure-resilient checkpointing for OpenCode — persistent task state, atomic writes, and resumable AI workflows.
+**Highlights:** SQLite persistence · Session isolation · Snapshots · Restoration · Task continuity
 
+### 💾 [Git That Shit](https://github.com/gitdamnit/opencode-git-that-shit)
 
+**v0.3.0 · GitHub released**
 
-## Stack
+*Because "Oh Shit Git" is what you say after the damage is done.*
 
-Next.js • React • TypeScript • Python • Markdown • YAML • JSON • Node.js • PostgreSQL • Docker/Portainer • Cloudflare • Tailwind • Drizzle ORM • Llama.cpp • AI / LLM workflows
+Automatically makes recoverable snapshots of important configuration and agent-state files before risky operations. Its separate shadow Git repository keeps recovery history out of your normal project commits. Also available as a standalone `gts` CLI.
 
-## Interests
+**Highlights:** Pre-operation snapshots · Config recovery · Shadow Git · Standalone CLI
 
-Automation, data, workflow systems, applied AI, orchestration, writing, botany, and building (for the most part) useful weird shit.
+### 🛡️ [Stranger Danger](https://github.com/gitdamnit/opencode-stranger-danger)
+
+**v0.2.0 · GitHub released**
+
+*Your secrets have no business traveling to somebody else's model.*
+
+Scans for credentials and sensitive information at AI coding-agent boundaries, including prompts, tool outputs, and model requests. Provides redaction, auditing, and allowlisting while keeping ordinary file inspection read-only.
+
+**Highlights:** 236 detection rules · Context protection · Redaction · Safe audit logs · Standalone CLI
+
+> **Distribution note:** The versions above are available as GitHub releases. Their corresponding npm releases are still being prepared; the npm registry may serve older versions or no package yet.
+
+---
+
+## 🧪 OpenCode Plugin Test Lab
+
+**v1.0.0 · GitHub publication in preparation**
+
+*Test the plugin before the plugin tests your patience.*
+
+A standalone Docker-based test environment for OpenCode plugins, with isolated runtime validation, multi-plugin compatibility checks, offline model simulation, security-oriented tests, and reproducible reports. Unlike the projects above, **the lab is a developer tool, not a loadable OpenCode plugin**.
+
+Its default test suite runs without any of my plugins; an optional regression profile covers all three.
+
+**Highlights:** Docker isolation · Generic manifests · Multi-plugin tests · Failure isolation · Repeatable reports
+
+**Recent validation:** 76 passed, 0 failed, 5 capability skips against OpenCode 2.0.32. GitHub publication is pending.
+
+---
+
+## 🪄 Bludit Wizard
+
+**Native Bludit CMS plugin · v1.1.0 in development**
+
+*Your intelligent Bludit publishing companion.*
+
+A content-first assistant built into the Bludit administration experience. It helps site owners draft pages, improve existing writing, analyze content, and review proposed changes before deciding what to publish.
+
+The upcoming release expands the interface to twelve writing, editing, planning, and quality-analysis tasks, with task-specific guidance and deliberate approval for changes.
+
+**Highlights:** Content drafting · Original/proposed comparison · Read-only audits · Human-approved edits · Configurable AI providers
+
+*Public release and Bludit community submission planned.*
+
+---
+
+## 🔌 Bludit Wizard MCP
+
+**Model Context Protocol integration · Local edition implemented**
+
+A separate MCP integration for accessing Bludit content functionality from compatible AI clients. Its shared core exposes nineteen tools for retrieving site information, working with pages, and reviewing controlled edits.
+
+The local stdio edition requires no centrally hosted service; optional self-hosted HTTP support is under consideration.
+
+**Highlights:** MCP tools · Local-first execution · Shared core · Reviewable edits · No mandatory cloud hosting
+
+*Further client validation and public release preparation pending.*
+
+---
+
+## 🏋️ TRAVIS v3
+
+**Training Resource Assistant for Vitality, Intake, and Strength · Private development**
+
+Personal-training management software designed around the needs of an actual trainer. TRAVIS brings client profiles, assessments, workout programming, session records, measurements, and nutrition macro tracking together in one practical workspace.
+
+Version 3 emphasizes trainer-controlled AI assistance, clear session records, progress visualization, equipment management, and printable workout programs. The idea is to reduce administration, not replace the trainer's judgment.
+
+**Highlights:** Client management · Workout programming · Progress tracking · Session logs · PDF exports
+
+*Version 3 is under active development and testing.*
+
+---
+
+## 🤝 HR Agent Assist
+
+**HR decision-support application · [Public repository](https://github.com/gitdamnit/hr-agent-assist)**
+
+An AI-assisted HR information tool centered on role-aware answers grounded in company policies, source documents, and relevant guidance.
+
+The next development phase will narrow the scope around practical policy retrieval, cited answers, and understandable guidance rather than expanding into a full HR platform.
+
+**Highlights:** Policy retrieval · Source citations · Role-aware guidance · Document search
+
+---
+
+## 👥 TalentOps Command Center
+
+**Recruiting and onboarding platform · ATS prototype**
+
+*A clearer way to manage hiring from application to onboarding.*
+
+An applicant tracking and recruiting-operations prototype bringing candidate pipelines, job requisitions, onboarding tasks, communication drafts, and reporting into a unified workspace.
+
+**Highlights:** Applicant tracking · Candidate management · Recruiting workflows · Onboarding · HR operations
+
+*Further refinement planned.*
+
+---
+
+## 🔧 Ollama Model Forge
+
+**Ollama configuration utility · Development to resume**
+
+*Make local model customization less complicated.*
+
+A developer utility for creating, configuring, and validating Ollama Modelfiles through a more approachable workflow: model parameters, system instructions, previews, and export for local use.
+
+**Highlights:** Ollama · Local models · Modelfile configuration · Developer experience
+
+*Existing project slated for completion.*
+
+---
+
+## ⚙️ Technologies & Tools
+
+**Languages:** TypeScript · JavaScript · Python · PHP · SQL
+
+**Frontend:** React · Tailwind CSS · HTML · CSS
+
+**Backend & data:** Node.js · Express · PostgreSQL · SQLite · Drizzle ORM
+
+**Infrastructure:** Linux · Docker · Git · GitHub Actions · Cloudflare
+
+**AI & development:** OpenCode · Ollama · MCP · Agent Skills · OpenAI-compatible APIs
+
+I use whatever fits the problem. I'm not interested in making every project justify the same stack.
+
+---
+
+## 💡 How I Approach Development
+
+It usually starts with a problem.
+
+**I have a problem. Someone else has a problem. Something pisses me off. Something takes too many steps. Something should be easier, faster, or more streamlined. Or I catch myself asking, "Why the hell doesn't this exist?"**
+
+That's usually when I start building.
+
+- **Don't ask why. Ask why not.** Challenge assumptions and try things.
+- **Solve actual problems.** Useful beats elaborate.
+- **Independent by design.** One tool shouldn't require an entire ecosystem.
+- **Evidence over assumptions.** Test what happened, not what should have happened.
+- **Humans stay in control.** Review consequential AI-assisted changes.
+- **Documentation matters.** Decisions and project status should reflect reality.
+- **Keep it practical.** If another tool already solves the problem, use it.
+
+Sometimes that turns into a useful application. Sometimes it turns into an experiment. Occasionally it turns into something called Git That Shit.
+
+---
+
+## 🌱 Beyond the Terminal
+
+When I'm not writing code or finding new things to automate, I'm usually growing something, experimenting with something, or learning an unrelated skill.
+
+I cultivate citrus, including **Meyer lemons, calamondins, Bearss limes, and Key limes**.
+
+I also cultivate unusual, rare ethnobotanical and entheogenic plants, including *Acacia confusa*, Hawaiian baby woodrose (*Argyreia nervosa*), and various *Datura* and *Atropa belladonna* cultivars.
+
+More recently, I've gotten into **tattooing**. I'm practicing on synthetic skin, developing my technique, and learning the craft before eventually working on real skin.
+
+Apparently, software development, rare plants, and tattooing weren't individually enough hobbies to keep me occupied.
+
+---
+
+## 🌐 Elsewhere
+
+- **Personal website:** [evanzellner.com](https://evanzellner.com)
+- **Projects portfolio:** [projects.evanzellner.com](https://projects.evanzellner.com)
+- **Professional resume:** [resume.evanzellner.com](https://resume.evanzellner.com)
+- **GitHub:** [@gitdamnit](https://github.com/gitdamnit)
+
+*The personal website and portfolio are being developed.*
+
+---
+
+**Build something useful. Break assumptions. Fix what's broken. Repeat.**
