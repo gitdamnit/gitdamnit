@@ -92,19 +92,21 @@ Its default test suite runs without any of my plugins; an optional regression pr
 
 ---
 
-## 🪄 Bludit Wizard
+## 🪄 [Bludit Wizard](https://github.com/gitdamnit/bludit-wizard)
 
-**Native Bludit CMS plugin · v1.1.0 in development**
+**Native Bludit CMS plugin · v1.1.0 · [GitHub release](https://github.com/gitdamnit/bludit-wizard/releases/tag/v1.1.0) · GPL-3.0-only**
 
 *Your intelligent Bludit publishing companion.*
 
-A content-first assistant built into the Bludit administration experience. It helps site owners draft pages, improve existing writing, analyze content, and review proposed changes before deciding what to publish.
+A released, open-source AI assistant built into Bludit's administration interface. Its **twelve guided tasks** cover page drafting, outlines and article ideas; improving, rewriting and proofreading existing content; SEO metadata, clarity and freshness audits; internal link suggestions; and contextual questions.
 
-The upcoming release expands the interface to twelve writing, editing, planning, and quality-analysis tasks, with task-specific guidance and deliberate approval for changes.
+Bludit Wizard supports configurable OpenAI-compatible providers, searchable model discovery, and model testing. OpenRouter and LLM Gateway have been verified in live use. Changes to existing content require human review and explicit approval; analysis tasks are read-only.
 
-**Highlights:** Content drafting · Original/proposed comparison · Read-only audits · Human-approved edits · Configurable AI providers
+**Highlights:** 12 AI workflows · Model discovery · OpenRouter & LLM Gateway · Original/proposed comparison · Read-only audits · Human-approved edits
 
-*Public release and Bludit community submission planned.*
+**[Download v1.1.0](https://github.com/gitdamnit/bludit-wizard/releases/tag/v1.1.0)** · [Source & documentation](https://github.com/gitdamnit/bludit-wizard)
+
+*Submitted to the official Bludit plugin directory: [PR #489](https://github.com/bludit/plugins-repository/pull/489), awaiting maintainer approval.*
 
 ---
 
