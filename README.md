@@ -26,7 +26,7 @@ My background is in human resources, technical recruiting, and business process 
 
 ## 😈 [I Hope It Offends You](https://github.com/gitdamnit/ihopeitoffendsyou)
 
-**My first successful web app build · Insult generator built to lower your self-esteem**
+**My first successful web app build · Insult generator built to *slightly* lower your self-esteem**
 
 *An insult generator with absolutely no interest in being polite.*
 
