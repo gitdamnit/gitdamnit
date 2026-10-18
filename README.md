@@ -98,7 +98,7 @@ Its default test suite runs without any of my plugins; an optional regression pr
 
 *Your intelligent Bludit publishing companion.*
 
-A released, open-source AI assistant built into Bludit's administration interface. Its **twelve guided tasks** cover page drafting, outlines and article ideas; improving, rewriting and proofreading existing content; SEO metadata, clarity and freshness audits; internal link suggestions; and contextual questions.
+Bludit Wizard brings AI-assisted writing and editing directly into Bludit's administration interface. Its **twelve guided tasks** cover page drafting, outlines and article ideas; improving, rewriting and proofreading existing content; SEO metadata, clarity and freshness audits; internal link suggestions; and contextual questions.
 
 Bludit Wizard supports configurable OpenAI-compatible providers, searchable model discovery, and model testing. OpenRouter and LLM Gateway have been verified in live use. Changes to existing content require human review and explicit approval; analysis tasks are read-only.
 
