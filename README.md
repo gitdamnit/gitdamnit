@@ -110,17 +110,21 @@ Bludit Wizard supports configurable OpenAI-compatible providers, searchable mode
 
 ---
 
-## 🔌 Bludit Wizard MCP
+## 🔌 [Bludit Wizard MCP](https://github.com/gitdamnit/bludit-wizard-mcp)
 
-**Model Context Protocol integration · Local edition implemented**
+**v1.0.0 · GPL-3.0-only · [GitHub release](https://github.com/gitdamnit/bludit-wizard-mcp/releases/tag/v1.0.0)**
 
-A separate MCP integration for accessing Bludit content functionality from compatible AI clients. Its shared core exposes nineteen tools for retrieving site information, working with pages, and reviewing controlled edits.
+*Give your AI coding assistant a direct line to Bludit.*
 
-The local stdio edition requires no centrally hosted service; optional self-hosted HTTP support is under consideration.
+A standalone, local-first Model Context Protocol server that connects AI clients to Bludit CMS through nineteen tools for site discovery, content retrieval, search, and controlled page editing.
 
-**Highlights:** MCP tools · Local-first execution · Shared core · Reviewable edits · No mandatory cloud hosting
+Built around a human-reviewed propose → preview → apply → verify workflow, with authentication controls, revision checks, and security protections. No deletion tool, no unattended publishing, and no mandatory hosted service.
 
-*Further client validation and public release preparation pending.*
+**Highlights:** 19 MCP tools · Local stdio server · Content search · Draft creation · Human-approved edits · Revision verification · OpenCode integration
+
+**Validation:** 465 automated tests passed, plus successful end-to-end acceptance testing of the published v1.0.0 package against a real Hostinger Bludit installation.
+
+**[Download v1.0.0](https://github.com/gitdamnit/bludit-wizard-mcp/releases/tag/v1.0.0)** · [Source & documentation](https://github.com/gitdamnit/bludit-wizard-mcp)
 
 ---
 
